@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just 쇼핑몰</title>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="logo"><a href="#"><img src="./images/logo.png" alt="Just 쇼핑몰 좌측 상단 메인 로고"></a></div>
+            <ul class="gnb">
+                <li>
+                    <a href="#">탑</a>
+                    <ul>
+                        <li><a href="#">블라우스</a></li>
+                        <li><a href="#">티</a></li>
+                        <li><a href="#">셔츠</a></li>
+                        <li><a href="#">니트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">아우터</a>
+                    <ul>
+                        <li><a href="#">자켓</a></li>
+                        <li><a href="#">코트</a></li>
+                        <li><a href="#">가디건</a></li>
+                        <li><a href="#">머플러</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">팬츠</a>
+                    <ul>
+                        <li><a href="#">청바지</a></li>
+                        <li><a href="#">짧은바지</a></li>
+                        <li><a href="#">긴바지</a></li>
+                        <li><a href="#">레깅스</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">악세서리</a>
+                    <ul>
+                        <li><a href="#">귀고리</a></li>
+                        <li><a href="#">목걸이</a></li>
+                        <li><a href="#">반지</a></li>
+                        <li><a href="#">팔찌</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="slide">
+            <div class="items">
+                <a href="#"><img src="./images/slide1.jpg" alt="딱 일주일만 오픈기념 15%"></a>
+                <a href="#"><img src="./images/slide2.jpg" alt="세 가지 혜택 바등러 가기"></a>
+                <a href="#"><img src="./images/slide3.jpg" alt="1+1 두장 구매시 15% 할인"></a>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="tab">
+                <div class="tab_title">
+                    <a class="active" href="#">공지사항</a>
+                    <a href="#">갤러리</a>
+                </div>
+                <div class="tab_box">
+                    <ul class="notice">
+                        <li><a href="#" class="show_modal">2021년 2월 무이자 할부 카드 안내 2021년 2월 무이자 할부 카드 안내</a></li>
+                        <li><a href="#">쿠폰 사용안내 2021년 2월 무이자 할부 카드 안내</a></li>
+                        <li><a href="#">쿠폰 다운로드 &사용방법</a></li>
+                        <li><a href="#">모바일 APP설치하고 10%할인쿠폰받자!! 2021년 2월 무이자 할부 카드 안내</a></li>
+                    </ul>
+                    <ul class="gallery">
+                        <li><a href="#"><img src="./images/gallery1.jpg" alt="갤러리 이미지 1"></a></li>
+                        <li><a href="#"><img src="./images/gallery2.jpg" alt="갤러리 이미지 2"></a></li>
+                        <li><a href="#"><img src="./images/gallery3.jpg" alt="갤러리 이미지 3"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner">
+                <a href="#"><img src="./images/banner.jpg" alt="New 10% 매일매일 신상 업데이트"></a>
+            </div>
+            <div class="link">
+                <a href="#">나의 계정</a>
+                <a href="#">헤이 음악</a>
+                <a href="#">계정 추가</a>
+                <a href="#">클라우드</a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="f_logo">
+                <img src="./images/logo-footer.png" alt="Just 쇼핑몰 좌측 하단 로고">
+            </div>
+            <p>(c)2020 Kakao Enterprise. The Kakao i is a trademark of Kakaocrop.</p>
+            <div class="sns">
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">youtube</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <h2>이름자를 패, 나의 봅니다.</h2>
+        <p>흙으로 새워 밤이 까닭입니다. 잔디가 책상을 하나에 사랑과 어머님, 나는 겨울이 있습니다. 하나에 이름과, 묻힌 봅니다. 동경과 별 피어나듯이 남은 이런 까닭입니다. 새겨지는 이름자 별 우는 별 까닭입니다.</p>
+        <a href="#" class="close">닫기</a>
+    </div>
+
+    <script>
+        $('.show_modal').click(function(){
+            $('.modal').addClass('active')
+        })
+        $('.close').click(function(){
+            $('.modal').removeClass('active')
+        })
+    </script>
+</body>
+</html>
